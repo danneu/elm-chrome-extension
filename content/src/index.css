@@ -1,0 +1,15 @@
+body {
+  margin-top: 100px !important;
+}
+
+.Content {
+  background-color: red;
+  color: white;
+  text-align: center;
+  border: 1px solid white;
+  padding: 25px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}

@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "elm-chrome-extension example",
+  "version": "0.0.0",
+  "permissions": [],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "elm-chrome-extension example",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "css": ["content.css"],
+      "js": ["content.js"]
+    }
+  ]
+}
